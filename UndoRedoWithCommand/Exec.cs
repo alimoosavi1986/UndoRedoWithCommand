@@ -2,6 +2,9 @@
 {
     public class Exec : ICommand
     {
+        /// <summary>
+        /// invoker or reciver
+        /// </summary>
         private UndoRedo UnoRedo;
         public Exec(UndoRedo UnoRedo)
         {

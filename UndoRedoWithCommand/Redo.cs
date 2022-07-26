@@ -1,5 +1,8 @@
 ﻿namespace UndoRedoWithCommand
 {
+    /// <summary>
+    /// concerete command
+    /// </summary>
     public class Redo : ICommand
     {
         private UndoRedo UnoRedo;

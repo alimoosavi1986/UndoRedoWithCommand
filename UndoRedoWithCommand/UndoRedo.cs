@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace UndoRedoWithCommand
 {
+    /// <summary>
+    /// Invoker or reciver ?
+    /// </summary>
     public class UndoRedo
     {
         private Stack<string> Forward { get; set; }
